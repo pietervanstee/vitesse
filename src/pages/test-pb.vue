@@ -85,7 +85,7 @@ function sortSelectedProducts() {
         <label tabindex="0" class="m-1 btn">
           Click
         </label>
-        <ul tabindex="0" class="bg-base-100 dropdown-content rounded-box menu w-32 p-2 shadow">
+        <ul tabindex="0" class="dropdown-content rounded-box menu bg-base-100 w-32 p-2 shadow">
           <div
             v-for="item in product_types"
             :key="item.id"
@@ -188,6 +188,7 @@ function sortSelectedProducts() {
         </div>
       </div>
     </div>
+    Test
 
     <div id="spacer" class="h-24" />
   </div>
