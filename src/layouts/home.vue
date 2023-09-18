@@ -1,12 +1,11 @@
 <template>
-  <main
-    px-4 py-10
-    text="center gray-700 dark:gray-200"
-  >
+  <main>
     <RouterView />
-    <TheFooter />
-    <div mx-auto mt-5 text-center text-sm opacity-50>
-      [Home Layout]
+    <div id="foot_wrapper" class="absolute bottom-6 left-1/2 flex flex-col -translate-x-1/2 space-y-4">
+      <TheFooter class="" />
+      <div mx-auto text-center text-sm opacity-50>
+        [Home Layout]
+      </div>
     </div>
   </main>
 </template>
